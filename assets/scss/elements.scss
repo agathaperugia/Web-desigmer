@@ -1,0 +1,36 @@
+.elements{
+    background-color: #eee6d9;
+}
+
+.elements_title{
+    font-size: 2rem;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.elements_list_item{
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.elements_contact{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+
+    font-size: 0.75rem;
+
+    padding: 30px 0;
+}
+
+.elements_contact a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.elements_contact_text::after{
+    margin-left: 10px;
+    content: "\f061";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}

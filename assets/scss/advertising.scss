@@ -1,0 +1,33 @@
+.advertising{
+    background-image: url("../img/workplace.jpg");
+    background-size: cover;
+    
+    min-height: 600px;
+
+    display: flex;
+    align-items: center;
+}
+
+.advertising_content{
+    background-color: #ffffff;
+
+    padding: 50px;
+
+    text-align: center;
+}
+
+.advertising_content_text{
+    font-size: 1.75rem;
+    font-weight: bold;
+
+    padding: 20px;
+}
+
+.advertising_content_link a{
+    color: #444444;
+    letter-spacing: 3px;
+}
+
+.advertising_content_text span{
+    font-style: italic;
+}

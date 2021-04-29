@@ -1,0 +1,26 @@
+.navbar{
+    display: grid;
+    justify-content: center;
+}
+
+.navbar_list{
+    display: flex;
+    align-items: center;
+}
+
+.navbar_list_item{
+    display: inline-block;
+    padding: 20px;
+}
+
+.navbar_list_item_img{
+    width: 150px;
+}
+
+.navbar a{
+    color: #000000;
+}
+
+.navbar a:hover{
+    color: rgba(250, 128, 114, .7);
+}
